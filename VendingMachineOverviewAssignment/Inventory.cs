@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VendingMachineOverviewAssignment
+﻿namespace VendingMachineOverviewAssignment
 {
 	public class Inventory
 	{
@@ -22,11 +16,9 @@ namespace VendingMachineOverviewAssignment
 				new Drinks
 				( "Liquid Dream", "Fizzy Drink without Taste", 4, 4, 15, 10, "Colafudge", "Soda" ),
 				new OtherNonConsumables
-				( "Airpimper", "For refill needs", 5, 5, 125, 10, "Pump Stuff" ),
-				
+				( "Airpimper", "For refill needs", 5, 5, 125, 10, "Pump Stuff" ),				
 			};			
 		}
-
 		public static void DisplayShowAll()
 		{
 			foreach (var item in listOfProducts)

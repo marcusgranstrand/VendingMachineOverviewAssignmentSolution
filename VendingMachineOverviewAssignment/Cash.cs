@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VendingMachineOverviewAssignment
+﻿namespace VendingMachineOverviewAssignment
 {
 	public class Cash
 	{
@@ -62,13 +55,11 @@ namespace VendingMachineOverviewAssignment
 							AvailableMoney = TotalAmount - BuyingCost;
 							Thread.Sleep(3000);
 							Console.Clear();
-
 						}
 						else
 						{
 							throw new Exception("There is not enough money!");
-						}
-                        
+						}                        
 						break;
 					case 2:
 						productTwo.Examine();
@@ -136,7 +127,6 @@ namespace VendingMachineOverviewAssignment
 						break;
 
 					default: Console.WriteLine(); break;
-
 				} 			
 				
 			}while (AvailableMoney > 0 && choice != 9) ;

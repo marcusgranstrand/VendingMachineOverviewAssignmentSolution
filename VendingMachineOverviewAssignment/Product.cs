@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VendingMachineOverviewAssignment
+﻿namespace VendingMachineOverviewAssignment
 {
+	#region Product Base Class
+
 	public abstract class Product : VendingMachineService
 	{
 		public string? ProductName { get; set; }
@@ -35,7 +31,7 @@ namespace VendingMachineOverviewAssignment
 		}		
 
 	}
-
+	#endregion
 	#region Product Types Classes
 
 	public class Snacks : Product
@@ -257,5 +253,4 @@ namespace VendingMachineOverviewAssignment
 	}
 
 	#endregion
-
 }

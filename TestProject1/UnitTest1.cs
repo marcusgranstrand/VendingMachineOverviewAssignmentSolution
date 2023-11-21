@@ -1,7 +1,3 @@
-using System.Security.AccessControl;
-using System.Xml.Schema;
-using Xunit.Sdk;
-
 namespace TestProject1
 {
 	public class UnitTest1
